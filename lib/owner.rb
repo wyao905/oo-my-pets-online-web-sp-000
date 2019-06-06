@@ -37,6 +37,10 @@ class Owner
     pets[:dogs] << new_dog
   end
   
+  def walk_dogs
+    pets[:dogs].each {|dog| dog.mood = "happy"}
+  end      
+  
   def self.all
     @@all
   end
