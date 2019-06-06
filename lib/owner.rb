@@ -51,7 +51,9 @@ class Owner
       pet_a.clear
     end
   end
-      
+  
+  def list_pets
+  end
   
   def self.all
     @@all
